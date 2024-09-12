@@ -9,7 +9,7 @@ const config: Config = {
   darkMode: "class",
   theme: {
     fontFamily: {
-      heading: "'Lexend', sans-serif",
+      heading: "'Inter', sans-serif",
       body: "'Inter', sans-serif",
     },
     container: {

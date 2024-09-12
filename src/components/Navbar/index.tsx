@@ -58,14 +58,14 @@ export default function Navbar() {
           <div className="relative z-[99] max-w-[250px] pr-4 lg:w-full lg:max-w-[220px] xl:max-w-[280px]">
             <Link href="/" className="inline-block">
               <Image
-                src="/images/logo/logo-dark.svg"
+                src="/images/logo/logo-dark.png"
                 alt="logo"
                 width={215}
                 height={50}
                 className="hidden dark:block"
               />
               <Image
-                src="/images/logo/logo-light.svg"
+                src="/images/logo/logo-light.png"
                 alt="logo"
                 width={215}
                 height={50}
@@ -210,9 +210,9 @@ export default function Navbar() {
                 </svg>
               </button> */}
 
-              <div className="relative flex h-10 w-10 items-center justify-center">
+              {/* <div className="relative flex h-10 w-10 items-center justify-center">
                 <ThemeToggler />
-              </div>
+              </div> */}
             </div>
 
             <button

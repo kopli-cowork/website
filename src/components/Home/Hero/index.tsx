@@ -17,19 +17,19 @@ export default function Hero() {
                 <span className="mr-2 inline-block h-2 w-2 rounded-full bg-primary"></span>
                 Next.js Starter for Business
               </span> */}
-              <h1 className="mb-5 font-heading text-2xl font-semibold dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
+              <h1 className="mb-5 font-heading text-2xl font-light dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
                 Coworking Space For Your{" "}
                 <Typewriter
                   words={["Business", "Agency", "Startup"]}
                   cursor
                   loop={0}
-                  cursorStyle="|"
-                  typeSpeed={70}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
+                  cursorStyle=""
+                  typeSpeed={50}
+                  deleteSpeed={70}
+                  delaySpeed={3000}
                 />
               </h1>
-              <p className="mb-12 text-base text-dark-text">
+              <p className="mb-12 text-base font-light text-dark-text">
                 Handcrafted Next.js starter for your next - Startup,
                 Business, Agency or SaaS Website. Comes with refreshing design, integrations
                 and everything you need to kickstart your next web project.

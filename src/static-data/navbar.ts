@@ -9,24 +9,24 @@ export const navbarData: NavbarItem[] = [
   //   external: false,
   // },
 
-  {
-    id: uuid(),
-    title: "Gallery",
-    href: "#portfolio",
-    external: false,
-  },
-  {
-    id: uuid(),
-    title: "Pricing",
-    href: "#pricing",
-    external: false,
-  },
-    {
-    id: uuid(),
-    title: "About",
-    href: "#about",
-    external: false,
-  },
+  // {
+  //   id: uuid(),
+  //   title: "Gallery",
+  //   href: "#portfolio",
+  //   external: false,
+  // },
+  // {
+  //   id: uuid(),
+  //   title: "Pricing",
+  //   href: "#pricing",
+  //   external: false,
+  // },
+  //   {
+  //   id: uuid(),
+  //   title: "About",
+  //   href: "#about",
+  //   external: false,
+  // },
   // {
   //   id: uuid(),
   //   title: "Pages",
