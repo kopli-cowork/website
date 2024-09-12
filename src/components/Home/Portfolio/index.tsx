@@ -29,15 +29,15 @@ export default function Portfolio() {
   return (
     <section id="portfolio" className="pt-14 sm:pt-20 lg:pt-[130px]">
       <div className="px-4 xl:container">
-        <SectionTitle
+        {/* <SectionTitle
           mainTitle="PORTFOLIO"
           title="Gallery, Previews and Portfolio"
           paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus."
-        />
+        /> */}
 
         <div className="w-full">
           <div className="portfolio-btn-wrapper mb-16 flex items-center justify-center overflow-x-auto pb-2">
-            <button
+            {/* <button
               className={`${activeTag === "All" ? "active" : ""} whitespace-nowrap px-5 font-heading text-base text-dark dark:text-white`}
               onClick={() => filterItems("All")}
             >
@@ -51,7 +51,7 @@ export default function Portfolio() {
               >
                 {tag}
               </button>
-            ))}
+            ))} */}
           </div>
 
           <ResponsiveMasonry

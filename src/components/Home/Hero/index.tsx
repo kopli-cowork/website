@@ -13,14 +13,14 @@ export default function Hero() {
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-3 lg:w-1/2">
             <div className="mx-auto mb-12 max-w-[530px] text-center lg:mb-0 lg:ml-0 lg:text-left">
-              <span className="mb-8 inline-block rounded-full bg-primary bg-opacity-5 px-5 py-[10px] font-heading text-base text-primary dark:bg-white dark:bg-opacity-10 dark:text-white">
+              {/* <span className="mb-8 inline-block rounded-full bg-primary bg-opacity-5 px-5 py-[10px] font-heading text-base text-primary dark:bg-white dark:bg-opacity-10 dark:text-white">
                 <span className="mr-2 inline-block h-2 w-2 rounded-full bg-primary"></span>
                 Next.js Starter for Business
-              </span>
+              </span> */}
               <h1 className="mb-5 font-heading text-2xl font-semibold dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
-                Next.js Boilerplate for Your{" "}
+                Coworking Space For Your{" "}
                 <Typewriter
-                  words={["Startup", "SaaS", "Business", "Agency"]}
+                  words={["Business", "Agency", "Startup"]}
                   cursor
                   loop={0}
                   cursorStyle="|"
@@ -35,7 +35,7 @@ export default function Hero() {
                 and everything you need to kickstart your next web project.
               </p>
               <div className="flex flex-wrap items-center justify-center lg:justify-start">
-                <a
+                {/* <a
                   href="#features"
                   className="inline-flex items-center rounded bg-primary px-6 py-[10px] font-heading text-base text-white hover:bg-opacity-90 md:px-8 md:py-[14px]"
                 >
@@ -70,7 +70,7 @@ export default function Hero() {
                     </svg>
                   </span>
                   How it Work
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

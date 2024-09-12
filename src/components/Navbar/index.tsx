@@ -161,7 +161,7 @@ export default function Navbar() {
                 </>
               ) : (
                 <>
-                  <Link
+                  {/* <Link
                     href="/auth/signin"
                     className="w-full whitespace-nowrap rounded bg-primary px-6 py-3 text-center font-heading text-white hover:bg-opacity-90 lg:w-auto"
                   >
@@ -172,7 +172,7 @@ export default function Navbar() {
                     className="w-full whitespace-nowrap rounded bg-[#222C40] px-6 py-3 text-center font-heading text-white hover:bg-opacity-90 lg:w-auto"
                   >
                     Sign Up
-                  </Link>
+                  </Link> */}
                 </>
               )}
             </div>
@@ -180,7 +180,7 @@ export default function Navbar() {
 
           <div className="absolute right-5 top-1/2 z-50 flex -translate-y-1/2 items-center lg:static lg:ml-4 lg:translate-y-0 xl:ml-6">
             <div className="flex items-center justify-end">
-              <button
+              {/* <button
                 onClick={() => setSearchModalOpen(true)}
                 className="hidden h-10 w-10 items-center justify-center rounded-full text-dark-text dark:text-white sm:flex"
               >
@@ -208,7 +208,7 @@ export default function Navbar() {
                     </clipPath>
                   </defs>
                 </svg>
-              </button>
+              </button> */}
 
               <div className="relative flex h-10 w-10 items-center justify-center">
                 <ThemeToggler />

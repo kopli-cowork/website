@@ -27,7 +27,7 @@ export default function AboutContent() {
 
   return (
     <>
-      <div className="tabButtons flex w-full items-center justify-around">
+      {/* <div className="tabButtons flex w-full items-center justify-around">
         {tabButtons.map((tabButton) => (
           <button
             key={tabButton?.id}
@@ -37,11 +37,24 @@ export default function AboutContent() {
             {tabButton?.title}
           </button>
         ))}
-      </div>
+      </div> */}
+      
       <div className="w-full">
+        
         {activeTab === "about" && (
+        // <div>
+        //   <iframe
+        //     width="600"
+        //     height="450"
+        //     style={{ border: 0 }}
+        //     loading="lazy"
+        //     allowFullScreen
+        //     referrerPolicy="no-referrer-when-downgrade"
+        //     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2027.5899785971246!2d24.672131177484083!3d59.45658827467615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469293f1527aa6f5%3A0xc56e9fab1f76b48a!2sMarati%205%2F2%2C%2011712%20Tallinn!5e0!3m2!1sen!2see!4v1726169500609!5m2!1sen!2see">
+        //   </iframe>
+        // </div>
           <TabPanel
-            title="DB, Auth, Stripe, Sanity, and More"
+            title="Coworking space in Põhjala tehas"
             image1="/images/about/image-1.jpg"
             image1Alt="about image 1"
             image2="/images/about/image-2.jpg"

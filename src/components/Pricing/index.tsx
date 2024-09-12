@@ -76,13 +76,13 @@ export default function Pricing() {
 
         <div className="pt-12 text-center">
           <h3 className="mb-5 font-heading text-xl font-medium text-dark dark:text-white sm:text-3xl">
-            Looking for a company solution?
+            Kas me tahame siia mingit teksti?
           </h3>
           <Link
             href="/support"
             className="text-base text-dark-text underline-offset-2 duration-200 hover:text-primary hover:underline"
           >
-            Contact our team to get a quote.
+            Kirjuta meile koplicowork@gmail.com
           </Link>
         </div>
       </div>
