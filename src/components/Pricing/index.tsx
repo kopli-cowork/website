@@ -9,8 +9,8 @@ export default function Pricing() {
       <div className="px-4 xl:container">
         <SectionTitle
           mainTitle=""
-          title="Affordable Pricing With Simple Plans"
-          paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus."
+          title="Design Your Ideal Work Experience with Our Plans"
+          paragraph="At koplicowork, our flexible plans cater to your unique work needs. Whether you need a day, a week, or a month, enjoy height-adjustable desks, ergonomic chairs, and all the perks of Põhjala Tehas—high-speed Wi-Fi, Kokomo coffee, and more. Pick the plan that fits your style and make koplicowork your creative base."
         />
 
         <div className="relative z-10 flex flex-wrap justify-center overflow-hidden rounded drop-shadow-light dark:drop-shadow-none">
@@ -76,14 +76,15 @@ export default function Pricing() {
 
         <div className="pt-12 text-center">
           <h3 className="mb-5 font-heading text-xl font-medium text-dark dark:text-white sm:text-3xl">
-            Kas me tahame siia mingit teksti?
+            Unlock Your New Workspace
           </h3>
-          <Link
+          Contact us at <a href="mailto:koplicowork@gmail.com">koplicowork@gmail.com</a>
+          {/* <Link
             href="/support"
             className="text-base text-dark-text underline-offset-2 duration-200 hover:text-primary hover:underline"
           >
             Kirjuta meile koplicowork@gmail.com
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>

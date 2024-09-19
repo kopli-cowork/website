@@ -33,50 +33,60 @@ export default function SinglePricing({ price }: any) {
         </div>
         <div className="border-b py-10 dark:border-[#2E333D]">
           <h3 className="mb-6 flex items-end justify-center pt-2 font-heading text-base font-medium text-dark dark:text-white">
-            ${" "}
+          €{" "}
             <sup className="-mb-2 text-[55px]">
               {" "}
               {(price.unit_amount / 100).toLocaleString("en-US", {
-                currency: "USD",
+                currency: "EUR",
               })}{" "}
             </sup>
-            /month
+            /{price?.nickname.toLowerCase()}
           </h3>
 
-          <p className="mx-auto max-w-[300px] text-base text-dark-text">
+          {/* <p className="mx-auto max-w-[300px] text-base text-dark-text">
             Lorem ipsum dolor sit ametion consectetur adipisc elit.
-          </p>
+          </p> */}
+
+          {/* <ul className="mx-auto max-w-[300px] text-base text-dark-text">
+            {price.bulletPoints.map((point: string, index: number) => (
+              <li key={index}>{point}</li>
+            ))}
+          </ul> */}
         </div>
         <div className="space-y-4 px-6 pb-[60px] pt-10 text-left sm:px-10 md:px-8 lg:px-10 xl:px-20">
-          {price?.nickname === "Starter" && (
+          {price?.nickname === "Day" && (
             <>
-              <SingleOffer text="100 GB Storage" status="active" />
-              <SingleOffer text="1 TB Photos and Videos" status="active" />
-              <SingleOffer text="Exclusive Support" status="active" />
-              <SingleOffer text="Free SEO Tools" status="inactive" />
-              <SingleOffer text="Custom Branding Strategy" status="inactive" />
+              <SingleOffer text="Flexible Seat" status="active" />
+              <SingleOffer text="High-speed Wi-Fi" status="active" />
+              <SingleOffer text="KOKOMO coffee and Tea" status="active" />
+              <SingleOffer text="Meeting Rooms" status="active" />
+              <SingleOffer text="Height-adjustable Desks" status="inactive" />
+              <SingleOffer text="Põhjala Tehas Discounts and Community Events" status="inactive" />
             </>
           )}
-          {price?.nickname === "Professional" && (
+          {price?.nickname === "Week" && (
             <>
-              <SingleOffer text="500 GB Storage" status="active" />
-              <SingleOffer text="Unlimited Photos and Videos" status="active" />
-              <SingleOffer text="Exclusive Support" status="active" />
-              <SingleOffer text="Free SEO Tools" status="active" />
-              <SingleOffer text="Custom Branding Strategy" status="inactive" />
+              <SingleOffer text="Flexible Seat" status="active" />
+              <SingleOffer text="High-speed Wi-Fi" status="active" />
+              <SingleOffer text="KOKOMO coffee and Tea" status="active" />
+              <SingleOffer text="Meeting Rooms" status="active" />
+              <SingleOffer text="Height-adjustable Desks" status="active" />
+              <SingleOffer text="Põhjala Tehas Discounts and Community Events" status="inactive" />
             </>
           )}
-          {price?.nickname === "Business" && (
+          {price?.nickname === "Month" && (
             <>
-              <SingleOffer text="Unlimited Storage" status="active" />
-              <SingleOffer text="Unlimited Photos and Videos" status="active" />
-              <SingleOffer text="Exclusive Support" status="active" />
-              <SingleOffer text="Free SEO Tools" status="active" />
-              <SingleOffer text="Custom Branding Strategy" status="active" />
+              <SingleOffer text="Flexible Seat" status="active" />
+              <SingleOffer text="High-speed Wi-Fi" status="active" />
+              <SingleOffer text="KOKOMO coffee and Tea" status="active" />
+              <SingleOffer text="Meeting Rooms" status="active" />
+              <SingleOffer text="Height-adjustable Desks" status="active" />
+              <SingleOffer text="Põhjala Tehas Discounts and Community Events" status="active" />
+              {/* <SingleOffer text="Family Member for +20€/m" status="active" /> */}
             </>
           )}
         </div>
-        <button
+        {/* <button
           onClick={handleSubscription}
           className={`inline-flex items-center rounded px-8 py-[14px] font-heading text-base text-white duration-200 ${price?.nickname === "Professional" ? "bg-primary hover:bg-primary/90" : "bg-dark hover:bg-dark/90"}`}
         >
@@ -95,7 +105,7 @@ export default function SinglePricing({ price }: any) {
               />
             </svg>
           </span>
-        </button>
+        </button> */}
       </div>
     </div>
   );

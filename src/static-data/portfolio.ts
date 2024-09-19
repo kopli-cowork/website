@@ -29,6 +29,20 @@ export const portfolioData = [
     tags: ["ecommerce"],
     image: "/images/portfolio/image-4.jpg",
   },
+  {
+    id: uuid(),
+    title: "Portfolio",
+    subTitle: "Branded Ecommerce",
+    tags: ["brand"],
+    image: "/images/portfolio/image-5.jpg",
+  },
+  {
+    id: uuid(),
+    title: "Portfolio",
+    subTitle: "Branded Ecommerce",
+    tags: ["ecommerce"],
+    image: "/images/portfolio/image-6.jpg",
+  },
   // {
   //   id: uuid(),
   //   title: "Portfolio",
