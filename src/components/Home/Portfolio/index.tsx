@@ -10,21 +10,21 @@ export default function Portfolio() {
   const [activeTag, setActiveTag] = useState("All");
   const [items, setItems] = useState(portfolioData);
 
-  const allTag = Array.from(
-    new Set(portfolioData.flatMap((item) => item.tags)),
-  );
+  // const allTag = Array.from(
+  //   new Set(portfolioData.flatMap((item) => item.tags)),
+  // );
 
-  const filterItems = (itemTag: any) => {
-    setActiveTag(itemTag);
-    if (itemTag === "All") {
-      return setItems(portfolioData);
-    } else {
-      const findItems = portfolioData.filter((findItem) => {
-        return findItem.tags.includes(itemTag);
-      });
-      setItems(findItems);
-    }
-  };
+  // const filterItems = (itemTag: any) => {
+  //   setActiveTag(itemTag);
+  //   if (itemTag === "All") {
+  //     return setItems(portfolioData);
+  //   } else {
+  //     const findItems = portfolioData.filter((findItem) => {
+  //       return findItem.tags.includes(itemTag);
+  //     });
+  //     setItems(findItems);
+  //   }
+  // };
 
   return (
     <section id="portfolio" className="pt-14 sm:pt-20 lg:pt-[130px]">
@@ -64,7 +64,7 @@ export default function Portfolio() {
             </Masonry>
           </ResponsiveMasonry>
 
-          <div className="w-full pt-10 text-center">
+          {/* <div className="w-full pt-10 text-center">
             <a
               href="#"
               className="inline-flex items-center rounded bg-primary px-8 py-[14px] font-heading text-base text-white hover:bg-opacity-90"
@@ -85,7 +85,7 @@ export default function Portfolio() {
                 </svg>
               </span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

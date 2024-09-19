@@ -29,11 +29,14 @@ export default function Hero() {
                   delaySpeed={3000}
                 />
               </h1>
-              <p className="mb-12 text-base font-light text-dark-text">
-                Handcrafted Next.js starter for your next - Startup,
-                Business, Agency or SaaS Website. Comes with refreshing design, integrations
-                and everything you need to kickstart your next web project.
-              </p>
+              <h2 className="mb-6 text-base font-light text-dark-text">
+              Coworking at <a href="https://www.pohjalatehas.ee/en/" target="_blank" rel="noopener noreferrer">
+  Põhjala Tehas
+</a> – Põhja-Tallinn’s Thriving Creative Community.
+              </h2>
+              <h3 className="mb-12 text-base font-light text-dark-text">
+              Surrounded by inspiring art, cafes, and community gardens, this is where innovation meets culture. Join a diverse collective of creators, entrepreneurs, and innovators in the heart of one of Tallinn’s most dynamic creative spaces.
+              </h3>
               <div className="flex flex-wrap items-center justify-center lg:justify-start">
                 {/* <a
                   href="#features"
@@ -127,34 +130,7 @@ export default function Hero() {
                   />
                 </svg>
               </div>
-              <div className="absolute bottom-0 left-1/2">
-                <svg
-                  width="120"
-                  height="120"
-                  viewBox="0 0 120 120"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    opacity="0.9"
-                    d="M120 60C120 93.1371 93.1371 120 60 120C26.8629 120 0 93.1371 0 60C0 26.8629 26.8629 0 60 0C93.1371 0 120 26.8629 120 60Z"
-                    fill="url(#paint0_angular_300_926)"
-                  />
-                  <defs>
-                    <radialGradient
-                      id="paint0_angular_300_926"
-                      cx="0"
-                      cy="0"
-                      r="1"
-                      gradientUnits="userSpaceOnUse"
-                      gradientTransform="translate(60 60) rotate(90) scale(60)"
-                    >
-                      <stop stopColor="#4A6CF7" />
-                      <stop offset="1" stopColor="#111722" />
-                    </radialGradient>
-                  </defs>
-                </svg>
-              </div>
+              
             </div>
           </div>
         </div>

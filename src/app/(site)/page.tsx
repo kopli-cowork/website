@@ -14,8 +14,8 @@ import { Metadata } from "next";
 const siteName = process.env.SITE_NAME;
 
 export const metadata: Metadata = {
-  title: `Next.js Starter for Business Sites | ${siteName}`,
-  description: "Next.js starter for your next - Startup, Business, Agency or SaaS Website. Comes with refreshing design, integrations and everything you need to kickstart your next web project",
+  title: `koplicowork - Coworking Space in Põhja-Tallinn`,
+  description: "koplicowork - Coworking Space in Põhja-Tallinn",
 };
 
 export default function Home() {
