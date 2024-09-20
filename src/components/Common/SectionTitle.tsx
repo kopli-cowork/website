@@ -5,7 +5,7 @@ export default function SectionTitle({ mainTitle, title, paragraph }: any) {
       <h2 className="mb-5 font-heading text-3xl font-light text-dark dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
         {title}
       </h2>
-      <p className="text-base text-dark-text">{paragraph}</p>
+      <p className="font-light text-dark-text">{paragraph}</p>
     </div>
   );
 }

@@ -75,10 +75,10 @@ export default function Pricing() {
         </div>
 
         <div className="pt-12 text-center">
-          <h3 className="mb-5 font-heading text-xl font-medium text-dark dark:text-white sm:text-3xl">
+          <h3 className="mb-5 font-heading text-xl font-light text-dark dark:text-white sm:text-3xl">
             Unlock Your New Workspace
           </h3>
-          Contact us at <a href="mailto:koplicowork@gmail.com">koplicowork@gmail.com</a>
+          <p className="font-light">Contact us at <a href="mailto:koplicowork@gmail.com">koplicowork@gmail.com</a></p>
           {/* <Link
             href="/support"
             className="text-base text-dark-text underline-offset-2 duration-200 hover:text-primary hover:underline"

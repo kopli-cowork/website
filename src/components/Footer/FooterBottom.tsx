@@ -5,29 +5,29 @@ export default function FooterBottom() {
         <div className="w-full px-4 md:w-1/2 lg:w-2/3">
           <div className="mb-5 flex items-center justify-center space-x-5 border-b pb-5 dark:border-[#2E333D] md:mb-0 md:justify-start md:border-0 md:pb-0">
             <a
-              href="#"
+              href="#todo"
               className="font-heading text-base text-dark-text hover:text-primary"
             >
-              English
+              Terms and Conditions
             </a>
             <a
-              href="#"
+              href="#todo"
               className="font-heading text-base text-dark-text hover:text-primary"
             >
               Privacy Policy
             </a>
-            <a
+            {/* <a
               href="#"
               className="font-heading text-base text-dark-text hover:text-primary"
             >
               Support
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="w-full px-4 md:w-1/2 lg:w-1/3">
           <div>
             <p className="text-center font-heading text-base text-dark-text lg:text-right">
-              © {new Date().getFullYear()} Startup. All rights reserved
+              © {new Date().getFullYear()} koplicowork OÜ. All rights reserved
             </p>
           </div>
         </div>

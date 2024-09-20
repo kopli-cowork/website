@@ -54,7 +54,7 @@ export default function AboutContent() {
         //   </iframe>
         // </div>
           <TabPanel
-            title="Coworking space in Põhjala tehas"
+            title="Located in Põhjala tehas"
             image1="/images/about/image-1.jpg"
             image1Alt="about image 1"
             image2="/images/about/image-2.jpg"

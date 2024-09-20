@@ -8,25 +8,25 @@ export const footerLinks: FooterLink[] = [
     href: "/",
     external: false,
   },
-  {
-    id: uuid(),
-    title: "Products",
-    href: "/",
-    external: false,
-  },
-  {
-    id: uuid(),
-    title: "Careers",
-    href: "/",
-    external: false,
-    badge: {
-      text: "Hiring",
-    },
-  },
+  // {
+  //   id: uuid(),
+  //   title: "Gallery",
+  //   href: "/",
+  //   external: false,
+  // },
   {
     id: uuid(),
     title: "Pricing",
-    href: "/",
+    href: "/#pricing",
+    external: false,
+    // badge: {
+    //   text: "Hiring",
+    // },
+  },
+  {
+    id: uuid(),
+    title: "About",
+    href: "/#about",
     external: false,
   },
 ];

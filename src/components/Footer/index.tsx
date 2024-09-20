@@ -7,7 +7,7 @@ import FooterNewsletter from "./FooterNewsletter";
 export default function Footer() {
   return (
     <footer className="pt-14 sm:pt-20 lg:pt-[130px]">
-      <div className="px-4 xl:container">
+      <div className="px-4 xl:container font-light">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 sm:w-1/2 md:w-5/12 lg:w-3/12 xl:w-3/12">
             <FooterAbout />
@@ -27,58 +27,44 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="w-1/2 px-4 md:w-3/12 lg:w-3/12 xl:w-2/12">
-            <div className="mb-20">
-              <h3 className="mb-9 font-heading text-2xl font-medium text-dark dark:text-white">
-                Support
-              </h3>
-
-              <ul className="space-y-4">
-                {footerLinksTwo.map((link) => (
-                  <FooterLinkItem key={link?.id} linkItem={link} />
-                ))}
-              </ul>
-            </div>
-          </div>
-
           <div className="w-full px-4 sm:w-1/2 md:w-5/12 lg:w-3/12 xl:w-2/12">
             <div className="mb-20">
-              <h3 className="mb-9 font-heading text-2xl font-medium text-dark dark:text-white">
+              <h3 className="mb-9 font-heading font-light text-2xl font-medium text-dark dark:text-white">
                 Get in touch
               </h3>
 
-              <div className="space-y-7">
+              <div className="space-y-7 font-light">
                 <div>
                   <p className="font-heading text-base text-dark-text">
-                    Toll Free Customer Care
+                    WhatsApp
                   </p>
                   <a
-                    href="tel:+(1) 123 456 7890"
+                    href="tel:+372 5695 6540"
                     className="font-heading text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
                   >
                     {" "}
-                    +(1) 123 456 7890{" "}
+                    +372 5695 6540{" "}
                   </a>
                 </div>
                 <div>
                   <p className="font-heading text-base text-dark-text">
-                    Need live support?
+                    Have any questions?
                   </p>
                   <a
-                    href="mailto:support@domain.com"
+                    href="mailto:koplicowork@gmail.com"
                     className="font-heading text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
                   >
                     {" "}
-                    support@domain.com{" "}
+                    koplicowork@gmail.com{" "}
                   </a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="w-full px-4 sm:w-1/2 md:w-5/12 lg:w-5/12 xl:w-3/12">
+          {/* <div className="w-full px-4 sm:w-1/2 md:w-5/12 lg:w-5/12 xl:w-3/12">
             <FooterNewsletter />
-          </div>
+          </div> */}
         </div>
 
         <FooterBottom />
