@@ -18,8 +18,8 @@ export default function Hero() {
                 Next.js Starter for Business
               </span> */}
               <h1 className="mb-5 font-heading text-2xl font-light dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
-                Coworking Space For Your{" "}
-                <Typewriter
+                Coworking Space For Your Business{" "}
+                {/* <Typewriter
                   words={["Business", "Agency", "Startup"]}
                   cursor
                   loop={0}
@@ -27,7 +27,7 @@ export default function Hero() {
                   typeSpeed={50}
                   deleteSpeed={70}
                   delaySpeed={3000}
-                />
+                /> */}
               </h1>
               <h2 className="mb-6 text-base font-light text-dark-text">
               Coworking at <a href="https://www.pohjalatehas.ee/en/" target="_blank" rel="noopener noreferrer">

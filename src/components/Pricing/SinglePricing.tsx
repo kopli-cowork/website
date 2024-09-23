@@ -57,30 +57,33 @@ export default function SinglePricing({ price }: any) {
           {price?.nickname === "Day" && (
             <>
               <SingleOffer text="Flexible Seat" status="active" />
-              <SingleOffer text="High-speed Wi-Fi" status="active" />
-              <SingleOffer text="KOKOMO coffee and Tea" status="active" />
+              <SingleOffer text="9-6 Access" status="active" />
               <SingleOffer text="Meeting Rooms" status="active" />
-              <SingleOffer text="Height-adjustable Desks" status="inactive" />
+              <SingleOffer text="High-speed Wi-Fi" status="active" />
+              <SingleOffer text="Height-adjustable Desks" status="active" />
+              <SingleOffer text="KOKOMO coffee and Tea" status="active" />
               <SingleOffer text="Põhjala Tehas Discounts and Community Events" status="inactive" />
             </>
           )}
           {price?.nickname === "Week" && (
             <>
-              <SingleOffer text="Flexible Seat" status="active" />
-              <SingleOffer text="High-speed Wi-Fi" status="active" />
-              <SingleOffer text="KOKOMO coffee and Tea" status="active" />
+              <SingleOffer text="Fixed Seat" status="active" />
+              <SingleOffer text="24/7 Access" status="active" />
               <SingleOffer text="Meeting Rooms" status="active" />
+              <SingleOffer text="High-speed Wi-Fi" status="active" />
               <SingleOffer text="Height-adjustable Desks" status="active" />
+              <SingleOffer text="KOKOMO coffee and Tea" status="active" />
               <SingleOffer text="Põhjala Tehas Discounts and Community Events" status="inactive" />
             </>
           )}
           {price?.nickname === "Month" && (
             <>
-              <SingleOffer text="Flexible Seat" status="active" />
-              <SingleOffer text="High-speed Wi-Fi" status="active" />
-              <SingleOffer text="KOKOMO coffee and Tea" status="active" />
+              <SingleOffer text="Fixed Seat" status="active" />
+              <SingleOffer text="24/7 Access" status="active" />
               <SingleOffer text="Meeting Rooms" status="active" />
+              <SingleOffer text="High-speed Wi-Fi" status="active" />
               <SingleOffer text="Height-adjustable Desks" status="active" />
+              <SingleOffer text="KOKOMO coffee and Tea" status="active" />
               <SingleOffer text="Põhjala Tehas Discounts and Community Events" status="active" />
               {/* <SingleOffer text="Family Member for +20€/m" status="active" /> */}
             </>
