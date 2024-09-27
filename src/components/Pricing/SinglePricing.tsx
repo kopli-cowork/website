@@ -32,7 +32,7 @@ export default function SinglePricing({ price }: any) {
           <p className="pb-10 text-base text-dark-text">{price?.subtitle}</p>
         </div>
         <div className="border-b py-10 dark:border-[#2E333D]">
-          <h3 className="mb-6 flex items-end justify-center pt-2 font-heading text-base font-medium text-dark dark:text-white">
+          <h3 className="mb-2 flex items-end justify-center pt-2 font-heading text-base font-medium text-dark dark:text-white">
           €{" "}
             <sup className="-mb-2 text-[55px]">
               {" "}
@@ -42,6 +42,7 @@ export default function SinglePricing({ price }: any) {
             </sup>
             /{price?.nickname.toLowerCase()}
           </h3>
+          <div className="text-base font-light text-gray-500">+22% VAT</div>
 
           {/* <p className="mx-auto max-w-[300px] text-base text-dark-text">
             Lorem ipsum dolor sit ametion consectetur adipisc elit.
