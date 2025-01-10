@@ -39,11 +39,11 @@ export default function Footer() {
                     WhatsApp
                   </p>
                   <a
-                    href="tel:+372 5695 6540"
+                    href="tel:+372 5362 6139"
                     className="font-heading text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
                   >
                     {" "}
-                    +372 5695 6540{" "}
+                    +372 5362 6139{" "}
                   </a>
                 </div>
                 <div>
@@ -51,11 +51,11 @@ export default function Footer() {
                     Have any questions?
                   </p>
                   <a
-                    href="mailto:koplicowork@gmail.com"
+                    href="mailto:cowork@pohjalatehas.ee"
                     className="font-heading text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
                   >
                     {" "}
-                    koplicowork@gmail.com{" "}
+                    cowork@pohjalatehas.ee{" "}
                   </a>
                 </div>
               </div>
